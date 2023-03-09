@@ -6,7 +6,6 @@ function ContactMaterial() {
     }
   return (
     <>
-    
     <main>
         <section id="contact-form">
             <div class="contact">
@@ -46,13 +45,7 @@ function ContactMaterial() {
             </div>
             
         </section>
-
-
-
     </main>
-
-
-
     </>
   )
 }

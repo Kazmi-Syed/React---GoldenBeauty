@@ -29,7 +29,7 @@ function Footer() {
 
   return (
     <>
-          <footer id="footer">
+          <footer id='location' className="footer">
         <div id="opening">
             <h2>Opening Times</h2>
             <ul id="opening-times">

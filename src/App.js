@@ -17,6 +17,10 @@ import './assets/css/style.css'
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
 
+
+  //HEre we will be checking whether the user has logged in to the 
+  //System or not
+  //and then the component will be rendered accordingly
   useEffect(() => {
     const firebase = getFirebase();
 
@@ -49,3 +53,4 @@ function App() {
 }
 
 export default App;
+

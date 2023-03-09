@@ -20,7 +20,7 @@ const SignOutButton = () => {
   };
 
   return (
-    <div>
+    <div style={{display : "flex" , flexDirection:"column" , alignItems : "center", width: "100%" }}>
       <Title>Sign out</Title>
       <Button onClick={() => signOut()}>Sign out</Button>
     </div>

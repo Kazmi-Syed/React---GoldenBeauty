@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-dom'
 
 function Header() {
   return (
@@ -12,7 +11,7 @@ function Header() {
         <ul className="home-dropdown">
             <li className="dropdown-logo"><i className="fas fa-bars"></i>
                 <ul className="dropdown-content">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/home2">Home</a></li>
                     <li className="services-dropdown"><a href="#services">Services</a><i className="fa fa-caret-down"></i>
                         <ul className="sub-dropdown">
                             <li><a href="/nails">Nails</a></li>
@@ -20,8 +19,8 @@ function Header() {
                             <li><a href="/relaxation">Relaxation</a></li>
                         </ul>
                     </li>
-                    <li><a href="/#about-us">About Us</a></li>
-                    <li><a href="/#location">Location</a></li>
+                    <li><a href="/home2#about-us">About Us</a></li>
+                    <li><a href="/home2#location">Location</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </li>

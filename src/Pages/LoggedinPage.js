@@ -2,13 +2,13 @@ import SignOutButton from "../Components/SignOutButton";
 import styled from "styled-components";
 
 const Home = props =>(
-    <div>
+    <div >
       <Description>
           {props.currentUser
             ? `The current logged in user is: ${props.currentUser}.`
             : "No user is currently logged in."}
         </Description>
-        <SignOutButton />
+        <SignOutButton  />
     </div>
   )
 
